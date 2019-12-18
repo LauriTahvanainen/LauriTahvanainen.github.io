@@ -1,0 +1,34 @@
+#HYCoursesCourseClassHeader {
+    column-span: all;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: gainsboro;
+    padding: 10%;
+    padding-top: 2%;
+}
+
+section {
+    margin: auto;
+    width: 140vh;
+}
+
+
+#StudiesNLang {
+    display: inline-grid;
+    grid-template-columns: auto ;
+    margin: auto;
+}
+
+#Studies {
+    grid-column: 1;
+}
+
+#Lang_prof {
+    grid-column: 2; 
+}
